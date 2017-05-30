@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Economic Stability</name>
+  <author>AngleWyrm</author>
+  <url>none yet</url>
+  <targetVersion>0.17.0</targetVersion>
+  <description>Stabilizes market prices.
+
+&lt;size=16&gt;&lt;color=#8080F0&gt;&lt;i&gt;Tired of getting stiffed by traders?&lt;/i&gt;&lt;/color&gt;&lt;/size&gt;  &lt;size=16&gt;&lt;color=#F08080&gt;&lt;i&gt;Stiff them back!&lt;/i&gt;&lt;/color&gt;&lt;/size&gt;
+    
+This mod gives the player the ability to sell items at the same 50% mark-up to &lt;i&gt;market value&lt;/i&gt; that other traders charge.
+    
+
+    
+&lt;b&gt;Credits&lt;/b&gt;
+    xyzzy for the adorable devil girl artwork; see more of her art at http://xyzzy.deviantart.com
+</description>
+</ModMetaData>

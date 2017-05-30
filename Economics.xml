@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- set the default base sell factor to match buy factor of 3/2 market value -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/StatDef[defName = "SellPriceFactor"]/defaultBaseValue</xpath>
+        <value>
+            <defaultBaseValue>3</defaultBaseValue> <!-- 3 x 1/2 sell price = 3/2 buy price -->
+		</value>
+	</Operation>
+    
+    <!-- replace individual record changes to sell factor -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>//ThingDef/statBases/SellPriceFactor</xpath>
+        <value>
+            <SellPriceFactor>3</SellPriceFactor>
+		</value>
+	</Operation>
+</Patch>
